@@ -4,20 +4,22 @@ Command: npx gltfjsx@6.5.3 optimized-room.glb
 */
 
 import React from "react";
-import { useGLTF } from "@react-three/drei";
-
+import { useGLTF, useTexture } from "@react-three/drei";
+import * as THREE from "three";
 export function Room(props) {
+  const matcapTexture = useTexture("/images/textures/mat1.png");
   const { nodes, materials } = useGLTF("/models/optimized-room.glb");
+
+  const cutrtainMaterial = new THREE.MeshPhongMaterial({ color: "#d90429" });
+  const bodyMaterial = new THREE.MeshPhongMaterial({ map: matcapTexture });
+
   return (
     <group {...props} dispose={null}>
       <mesh
         geometry={nodes._________6_blinn1_0.geometry}
-        material={materials.blinn1}
+        material={cutrtainMaterial}
       />
-      <mesh
-        geometry={nodes.body1_blinn1_0.geometry}
-        material={materials.blinn1}
-      />
+      <mesh geometry={nodes.body1_blinn1_0.geometry} material={bodyMaterial} />
       <mesh
         geometry={nodes.cabin_blinn1_0.geometry}
         material={materials.blinn1}
