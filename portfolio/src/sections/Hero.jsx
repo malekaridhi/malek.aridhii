@@ -61,7 +61,7 @@ function Hero() {
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               {" "}
-              hi ! The name's Malek (ملاك) Fullstack developer{" "}
+              Hi ! The name's Malek (ملاك) Fullstack developer{" "}
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"

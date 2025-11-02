@@ -11,10 +11,10 @@ const navLinks = [
         name: "Skills",
         link: "#skills",
     },
-    {
-        name: "Testimonials",
-        link: "#testimonials",
-    },
+    // {
+    //     name: "Testimonials",
+    //     link: "#testimonials",
+    // },
 ];
 
 const words = [
@@ -53,24 +53,40 @@ const logoIconsList = [
 
 ];
 
+// const abilities = [
+//     {
+//         imgPath: "/images/seo.png",
+//         title: "Quality Focus",
+//         desc: "Delivering high-quality results while maintaining attention to every detail.",
+//     },
+//     {
+//         imgPath: "/images/chat.png",
+//         title: "Reliable Communication",
+//         desc: "Keeping you updated at every step to ensure transparency and clarity.",
+//     },
+//     {
+//         imgPath: "/images/time.png",
+//         title: "On-Time Delivery",
+//         desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+//     },
+// ];
 const abilities = [
     {
-        imgPath: "/images/seo.png",
-        title: "Quality Focus",
-        desc: "Delivering high-quality results while maintaining attention to every detail.",
-    },
-    {
-        imgPath: "/images/chat.png",
-        title: "Reliable Communication",
-        desc: "Keeping you updated at every step to ensure transparency and clarity.",
+        imgPath: "/images/debug.png",
+        title: "Effective Debugging",
+        desc: "Skilled at identifying, analyzing, and fixing complex issues quickly to ensure smooth performance.",
     },
     {
         imgPath: "/images/time.png",
-        title: "On-Time Delivery",
-        desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+        title: "Fast & Reliable Delivery",
+        desc: "Delivering high-quality work efficiently without compromising attention to detail or project goals.",
+    },
+    {
+        imgPath: "/images/brain.png",
+        title: "Problem-Solving Mindset",
+        desc: "Approaching challenges with logic and creativity to build efficient, scalable solutions.",
     },
 ];
-
 const techStackImgs = [
     {
         name: "React Developer",
@@ -127,47 +143,101 @@ const techStackIcons = [
     },
 ];
 
+// const expCards = [
+//     {
+//         review:
+//             "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+//         imgPath: "/images/exp1.png",
+//         logoPath: "/images/logo1.png",
+//         title: "Full Stack Developer",
+//         date: "April 2023 - July 2025",
+//         responsibilities: [
+//             "Developed and maintained user-facing features for the Hostinger website.",
+//             "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+//             "Optimized web applications for maximum speed and scalability.",
+//         ],
+//     },
+//     {
+//         review:
+//             "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+//         imgPath: "/images/exp2.png",
+//         logoPath: "/images/logo2.png",
+//         title: "Full Stack Developer",
+//         date: "June 2020 - December 2023",
+//         responsibilities: [
+//             "Led the development of Docker's web applications, focusing on scalability.",
+//             "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
+//             "Contributed to open-source projects that were used with the Docker ecosystem.",
+//         ],
+//     },
+//     {
+//         review:
+//             "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+//         imgPath: "/images/exp3.png",
+//         logoPath: "/images/logo3.png",
+//         title: "React Native Developer",
+//         date: "March 2019 - May 2020",
+//         responsibilities: [
+//             "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+//             "Improved app performance and user experience through code optimization and testing.",
+//             "Coordinated with the product team to implement features based on feedback.",
+//         ],
+//     },
+// ];
+
 const expCards = [
     {
         review:
-            "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+            "Showed strong ownership, fast delivery, and excellent debugging skills.successfully shipped complex features across multiple products.",
+        imgPath: "/images/soft.png",
+        logoPath: "/images/logosoft (1).png",
+        title: "Full-Stack Web Developer — Softt365",
+        date: "April 2023 – July 2025",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            // ContrackTime (SaaS)
+            "Maintained & improved ContrackTime (SaaS contract management platform).",
+            "Developed tree-structured planning system with PostgreSQL functions & automated dependencies.",
+            "Built Gmail Add-On (Apps Script + React), OAuth2 + passed Google security verification.",
+            "Optimized React components, reducing over-rendering and improving load speed.",
+            "Built PDF extraction tool (Python + FastAPI + pdfplumber) for automatic meeting notes.",
+            "Developed subscription management dashboard with billing & storage control.",
+            "Integrated MFA (TOTP) for account security.",
+            "Designed & launched the official ContrackTime WordPress website (Elementor).",
+
+            // Ariane project (inside Softt365)
+            "Created responsive mini-sites for real-estate sales using HTML, jQuery, Bootstrap, PHP.",
+            "Managed hosting, FTP deployment & maintenance for client deliveries.",
         ],
     },
     {
         review:
-            "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+            "Contributed to scalable web projects and demonstrated strong MERN stack development skills.",
+        imgPath: "/images/code.png",
+        logoPath: "/images/code.png",
+        title: "Full-Stack MERN Developer — mobiSm",
+        date: "Oct 2021 – Dec 2021",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Developed web applications using the MERN stack.",
+            "Built REST APIs and optimized database schemas.",
+            "Integrated React UI with backend logic.",
         ],
     },
     {
         review:
-            "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
+            "Demonstrated excellent learning speed and delivered complete MERN features",
+        imgPath: "/images/opt1.png",
+        logoPath: "/images/opt.png",
+        title: "Full-Stack Intern — Optimatech",
+        date: "June 2021 – Aug 2021",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Designed & built a full MERN application from scratch.",
+            "Created admin dashboard with authentication and moderation.",
+            "Implemented Redux for state management.",
+            "Developed modern showcase websites.",
         ],
     },
 ];
+
 
 const expLogos = [
     {
