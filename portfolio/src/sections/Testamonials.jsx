@@ -4,7 +4,7 @@ import { stackIcons } from "../constants";
 import GlowCard from "../components/GlowCard";
 const Testamonials = () => {
   return (
-    <section id="testimonials" className="flex-center section-padding">
+    <section id="tech" className="flex-center section-padding">
       <div className="x-full h-full md:px-10 px-5">
         <TitelHeader
           Title="My Preferd Teck Stack"
